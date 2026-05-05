@@ -1,11 +1,12 @@
           MODULE=gkrellm
-         VERSION=2.3.11
+         VERSION=2.5.1
           SOURCE=gkrellm-$VERSION.tar.bz2
-      SOURCE_URL=http://gkrellm.srcbox.net/releases
-      SOURCE_VFY=sha256:1ee0643ed9ed99f88c1504c89d9ccb20780cf29319c904b68e80a8e7c8678c06
-        WEB_SITE=http://www.gkrellm.net
+      SOURCE_URL=https://gkrellm.srcbox.net/releases/
+      SOURCE_VFY=sha256:089e3c1ed398482e682c9900b504ea166a6144a6c9fa041e70c5bbca6b177e63
+        WEB_SITE=https://gkrellm.srcbox.net/
+            TYPE=meson
          ENTERED=20020814
-         UPDATED=20190731
+         UPDATED=20260505
            SHORT="GKrellM monitors EVERYTHING"
 
 cat << EOF
